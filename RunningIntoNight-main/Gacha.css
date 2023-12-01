@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    color: #007bff;
+    margin-top: 20px;
+    font-size: 100px;
+}
+
+#back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back-button:hover {
+    background-color: #0056b3;
+}
+
+#gacha-button {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 48px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#save-button {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 48px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#gacha-button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hidden {
+    font-size: 28px;
+    display: none;
+}
+
+.fire {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    background-image: linear-gradient(to right, #ff0884, #f83600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.stars {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.prestige {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Legend {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Epic {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Rare {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.error {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.machine {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.center-image {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}

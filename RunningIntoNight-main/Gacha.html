@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gacha Game</title>
+    <link rel="stylesheet" href="Gacha.css">
+</head>
+<body>
+    <h1>가챠로 강해지자!</h1>
+    <a id="back-button" href="#" onclick="window.history.back(); return false;">뒤로가기</a>
+    <button id="gacha-button">공룡 가챠</button>
+    <button id="save-button">결과 저장</button>
+    <div id="loading" class="hidden">공룡을 기다리는 중...</div>
+    <div id="result"></div>
+    
+    <img id="prestigeImage" src="dinos/fire-up.png" alt="Prestige Image" class="center-image" style="display: none;">
+    <img id="LegendaryImage" src="dinos/stardino-up.png" alt="Legendary Image" class="center-image" style="display: none;">
+    <img id="EpicImage" src="dinos/error-up.png" alt="Epic Image" class="center-image" style="display: none;">
+    <img id="RareImage" src="dinos/machin-up.png" alt="Rare Image" class="center-image" style="display: none;">
+    <img id="CommonImage" src="dinos/greendino.png" alt="Common Image" class="center-image" style="display: none;">
+    <script src="js/Gacha.js"></script>
+</body>
+</html>
